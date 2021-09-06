@@ -11,4 +11,7 @@ echo """
                                 
 """
 
+rm -rf hellbot
+git clone https://github.com/TheVaders/InVade
+cd InVade
 python3 -m hellbot
